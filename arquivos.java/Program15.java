@@ -9,8 +9,8 @@ public class Program15 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		int n;
-		// quantos elementos da matriz serão digitados
-		System.out.print("how many array elements will be typed: ");
+		// qual a ordem da matriz
+		System.out.print("what is the order of the matrix: ");
 		n = sc.nextInt();
 
 		int[][] mat = new int[n][n];
