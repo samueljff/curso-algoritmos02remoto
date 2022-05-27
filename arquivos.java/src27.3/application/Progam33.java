@@ -15,7 +15,7 @@ public class Progam33 {
 		list.add(new Product("Notebook", 1200.00));
 		list.add(new Product("Tablet", 450.00));
 
-		// expressão lambida função anonima
+		// expressão lambda ou função anonima, também chamada de arrow functions
 		Comparator<Product> comp = (p1, p2) -> {
 			return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 
